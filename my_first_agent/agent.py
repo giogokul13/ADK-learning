@@ -14,6 +14,6 @@ def get_instructions() -> str:
 root_agent = Agent(
     model='gemini-2.5-flash',
     name='root_agent',
-    description="Tells the current time in a specified city.",
+    description="Tells the current Date time in a specified city.",
     instruction=get_instructions(),  # call the function to pass a string
 )
