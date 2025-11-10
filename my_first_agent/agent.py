@@ -5,7 +5,9 @@ from datetime import datetime
 def get_instructions() -> str:
     """Returns the instructions."""
     current_time = datetime.now()
-    instruction = f"My current time is {current_time} in India, please calculate the time with respect to the timezones for the given city. Please Provide the answer in the format '12th December 2025 HH:MM AM/PM."
+    instruction = f"""My current time is {current_time} in India. 
+    Please calculate the time with respect to the timezones for the given city. 
+    Please provide the answer in this specific format '12th December 2025 HH:MM AM/PM'."""
     return instruction
 
 
